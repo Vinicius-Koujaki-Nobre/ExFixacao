@@ -1,8 +1,10 @@
 .wrapPage{
-    padding-top: 0.5vh;
+    padding-top: 12vh;
     text-align: center;
-    background-color: var(--bg);
-    color: var(--text);
+    color: black;
+    background-image: url(./assets/images/BackgroundAPI.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .input{
