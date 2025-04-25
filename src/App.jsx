@@ -1,5 +1,5 @@
 import style from './App.module.css'
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 
 
 import { Menu } from './components/menu'
@@ -23,7 +23,7 @@ function App() {
       <Menu option01='Vídeo' option02='Personagens'/> 
 
       <section className={style.sections1} id='s1'>
-        <img src={photoSlogan} alt="genkidama" className={style.img} width={800} height={800} />
+        <img src={photoSlogan} alt="genkidama" className={style.img} />
         <h3 className={style.h3}>"Precisam levantar suas mãos para o céu. E assim reuniremos forças para derrotar Majin Boo. Por tudo que mais amam. Precisamos que mandem sua energia."</h3>
         <button className={style.button} onClick={showMesssage}>Saiba mais</button>
         {Message && (

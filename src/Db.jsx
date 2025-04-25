@@ -12,9 +12,6 @@ export default function Db(){
     const [erro, setErro] = useState(false)
 
     useEffect(() => {
-
-        const pageNumber = Number(page);
-
         api.get(`/characters?page=${page}`).then((response) => {
             setData(response.data.items)
         }).catch((error) => {

@@ -1,5 +1,5 @@
 .header{
-    background-color: #333333;
+    background-color: rgb(38, 38, 38);
     position: fixed !important;
     width: 100%;
     top: 0px;
@@ -8,7 +8,12 @@
 
 .a{
     text-decoration: none;
+    color: #5d5d5d;
+}
+
+.a:hover{
     color: aliceblue;
+    transition: 300ms all ease-in-out;
 }
 
 .wrapPage{
