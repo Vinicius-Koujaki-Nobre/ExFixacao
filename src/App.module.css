@@ -1,13 +1,13 @@
 .sections1 {
     display: flex;
     height: 100vh;
-    color: aliceblue;
-    background-image: url(./assets/images/BackgroundSlogan.jpg);
+    gap: 20px;
+    color: rgb(0, 0, 0);
+    background-image: url(./assets/images/BackgroundSlogan.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     flex-wrap: wrap;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -17,22 +17,25 @@
     flex-wrap: wrap;
     width: 190px ;
     height: auto;
-    padding-top: 5vh;
+    margin-top: 10vh;
 }
 
 .h3 {
-    max-width: 80vw;
+    max-width: 60vw;
     font-size: 20px;
     font-weight: bold;
-    background-color: rgb(255, 94, 0, 0.3);
+}
+
+.belowContent{
+    flex-direction: column !important;
+    width: 75%;
+    padding-bottom: 15vh;
 }
 
 .p{
-    text-align: center;
-    border: 2px solid black;
-    background-color: rgb(255, 94, 0, 0.3);
-    max-width: 80vw;
-    font-weight: bold;
+    margin-top: 15px;
+    background-color: rgba(72, 72, 72, 0.312);
+    border-radius: 15px;
 }
 
 .sections2 {
@@ -66,18 +69,20 @@
     padding-top: 80px;
 }
 
-@media (width > 1000px) {
+@media (width > 1320px) {
     .sections1{
-        gap: 15vh;
+        gap: 10vh;
     }
 
     .img{
-        width: 500px ;
+        width: 450px ;
         height: auto;
+        margin-top: 15px;
     }
 
     .h3{
-        max-width: 50vw;
+        max-width: 30vw;
         font-size: 40px;
     }
+
 }
