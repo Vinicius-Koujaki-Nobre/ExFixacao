@@ -1,3 +1,9 @@
+html{
+    background-image: url("./assets/images/tapaBuraco.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .header{
     background-color: rgb(38, 38, 38);
     position: fixed !important;
